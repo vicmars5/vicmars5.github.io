@@ -12,6 +12,10 @@ h1 {
   background: url(../img/fertilizers/urea-1.jpeg) no-repeat center center fixed;
   background-size: cover; }
 
+.veterinary > .header {
+  background: url(../img/fertilizers/pexels-photo-244780.jpeg) no-repeat center center fixed;
+  background-size: cover; }
+
 .header {
   display: table;
   position: relative;
@@ -72,7 +76,7 @@ h1 {
   .fertilizers > .info .carousel {
     margin-bottom: 50px; }
 
-.gallery-carousel .carousel-img {
+.gallery-carousel .carousel-inner {
   border-radius: 8px; }
 
 .gallery-carousel .right, .gallery-carousel .left {
@@ -81,6 +85,34 @@ h1 {
 @media screen and (min-width: 992px) {
   .gallery-carousel p {
     font-size: 16px; } }
+
+.veterinary > .info {
+  padding-top: 50px; }
+  .veterinary > .info .container {
+    max-width: 900px; }
+  .veterinary > .info .header p {
+    font-size: 18px;
+    margin-bottom: 24px; }
+  .veterinary > .info .header h2 {
+    font-weight: bold; }
+  .veterinary > .info .description {
+    font-size: 16px;
+    margin-bottom: 18px; }
+  .veterinary > .info .header, .veterinary > .info .description {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .veterinary > .info .carousel {
+    margin-bottom: 50px; }
+
+.gallery-carousel .carousel-inner {
+  border-radius: 8px; }
+
+.gallery-carousel .right, .gallery-carousel .left {
+  background: none; }
+
+.portfolio .size-img {
+  height: 305px;
+  width: 500px; }
 
 /* Callout */
 .callout {
